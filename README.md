@@ -16,3 +16,17 @@ The goal of the project was to gain hands-on experience deploying a SIEM, collec
 - Map detections to the MITRE ATT&CK framework.
 - Develop practical skills in security monitoring, log analysis, and SIEM administration.
 - Document the project for a professional cybersecurity portfolio.
+
+- ## Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| Wazuh | Security Information and Event Management (SIEM) platform |
+| Ubuntu Server | Hosts the Wazuh Manager, Indexer, and Dashboard |
+| Windows 11 | Monitored endpoint |
+| Microsoft Sysmon | Enhanced Windows event logging |
+| Wazuh Agent | Collects endpoint logs and securely forwards them to the Wazuh Manager |
+| VMware Workstation Pro | Virtualization platform |
+| ossec.conf | Configured the Wazuh Agent to collect Sysmon event logs |
+| MITRE ATT&CK Framework | Threat classification and mapping |
+| GitHub | Project documentation and version control |
