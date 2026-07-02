@@ -74,3 +74,17 @@ The Wazuh Dashboard retrieves indexed data and presents alerts, dashboards, MITR
 
 ### 7. Detection Validation
 To validate the deployment, Sysmon events were successfully collected from the Windows endpoint and displayed within the Wazuh Dashboard, confirming that the agent, manager, indexer, and dashboard were functioning correctly.
+
+## Validation
+
+The following validation steps confirmed that the Wazuh deployment was functioning correctly:
+
+- Verified the Wazuh Manager, Indexer, and Dashboard services were running on the Ubuntu Server.
+- Verified the Wazuh Agent and Microsoft Sysmon services were running on the Windows 11 endpoint.
+- Verified the Windows 11 endpoint successfully registered with the Wazuh Manager.
+- Confirmed endpoint inventory information was collected and displayed in the Wazuh Dashboard.
+- Configured the Wazuh Agent to collect Sysmon Operational logs.
+- Verified Sysmon Process Creation (Event ID 1) events were successfully ingested.
+- Confirmed a built-in Wazuh detection rule generated a Level 15 security alert from Sysmon telemetry.
+- Verified Sysmon File Creation (Event ID 11) events were successfully ingested.
+- Validated MITRE ATT&CK mappings associated with generated alerts.
