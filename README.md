@@ -1,2 +1,18 @@
-# Wazuh-SIEM-Home-Lab
-Wazuh SIEM home lab with Sysmon integration, custom detection rules, and MITRE ATT&amp;CK mapping.
+# Wazuh SIEM Home Lab with Sysmon Integration
+
+## Project Overview
+
+This project documents the design, deployment, and validation of a Security Information and Event Management (SIEM) home lab using Wazuh and Microsoft Sysmon. The lab was built in VMware Workstation with an Ubuntu Server hosting the Wazuh Manager, Indexer, and Dashboard, and a Windows 11 endpoint configured with the Wazuh Agent and Sysmon.
+
+The goal of the project was to gain hands-on experience deploying a SIEM, collecting Windows security telemetry, creating custom detection rules, and investigating alerts through the Wazuh Dashboard. Throughout the project, I configured secure log collection, validated end-to-end event ingestion, and documented the environment to demonstrate practical SOC analyst skills.
+
+## Objectives
+
+- Deploy a Wazuh SIEM environment on Ubuntu Server.
+- Configure a Windows 11 endpoint with the Wazuh Agent.
+- Install and configure Microsoft Sysmon for enhanced event logging.
+- Collect and analyze Windows Security and Sysmon events.
+- Create and validate a custom Wazuh detection rule.
+- Map detections to the MITRE ATT&CK framework.
+- Develop practical skills in security monitoring, log analysis, and SIEM administration.
+- Document the project for a professional cybersecurity portfolio.
