@@ -30,3 +30,12 @@ The goal of the project was to gain hands-on experience deploying a SIEM, collec
 | ossec.conf | Configured the Wazuh Agent to collect Sysmon event logs |
 | MITRE ATT&CK Framework | Threat classification and mapping |
 | GitHub | Project documentation and version control |
+
+## Lab Environment
+
+The lab was built in VMware Workstation Pro using two virtual machines connected through a private virtual network.
+
+| Virtual Machine | Operating System | IP Address | Role |
+|----------------|------------------|------------|------|
+| Wazuh Server | Ubuntu Server | 192.168.74.128 | Hosts the Wazuh Manager, Indexer, and Dashboard |
+| Windows Endpoint | Windows 11 | 192.168.74.129 | Generates Windows and Sysmon events that are collected by the Wazuh Agent |
