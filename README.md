@@ -103,7 +103,7 @@ Before onboarding endpoints, the core Wazuh services were verified to ensure the
 **Purpose:**  
 Verified that the Wazuh Manager service was active and running on the Ubuntu Server.
 
-![Wazuh Manager Service](01-wazuh-manager-running.png.png)
+![Wazuh Manager Service Running](images/01-wazuh-manager-running.png.png)
 
 ---
 
