@@ -114,14 +114,14 @@ Verified that the Wazuh Indexer service was active (`active (running)`), confirm
 
 ![Wazuh Indexer Service Running](images/02-wazuh-indexer-running.png.png)
 
-
+---
 
 ### Wazuh Dashboard
 
 **Purpose:**  
 Verified that the Wazuh Dashboard service was active (`active (running)`), confirming the web interface was available for monitoring and investigation.
 
-*Insert Wazuh Dashboard screenshot*
+![Wazuh Dashboard Service Running](images/03-wazuh-dashboard-running.png.png)
 
 ---
 
@@ -130,7 +130,7 @@ Verified that the Wazuh Dashboard service was active (`active (running)`), confi
 **Purpose:**  
 Verified that both the Wazuh Agent (WazuhSvc) and Microsoft Sysmon (Sysmon64) services were running on the Windows 11 endpoint, confirming endpoint monitoring was operational.
 
-*Insert Windows services screenshot*
+![Windows Endpoint Services](images/04-windows-services.png.png)
 
 ---
 
