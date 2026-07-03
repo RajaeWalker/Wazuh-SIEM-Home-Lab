@@ -192,4 +192,6 @@ Verified that the generated alert included Rule ID 92213, severity level, and th
 **Purpose:**  
 Verified that Sysmon File Creation (Event ID 11) events were successfully collected and analyzed by the Wazuh platform, demonstrating additional endpoint telemetry beyond process creation events.
 
-*Insert Event ID 11 screenshot*
+![Sysmon File Creation (Event ID 11) - Part 1](images/10-sysmon-eventid11-details.png.png) 
+
+![Sysmon File Creation (Event ID 11) - Part 2](images/11-sysmon-eventid11-rule-metadata.png.png)
