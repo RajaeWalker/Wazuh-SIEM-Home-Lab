@@ -101,7 +101,7 @@ Before onboarding endpoints, the core Wazuh services were verified to ensure the
 ### Wazuh Manager
 
 **Purpose:**  
-Verified that the Wazuh Manager service was active (`active (running)`), confirming the central event analysis engine was operational.
+Verified that the Wazuh Manager service was active and running on the Ubuntu Server.
 
 ![Wazuh Manager Service](01-wazuh-manager-running.png.png)
 
