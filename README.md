@@ -103,7 +103,7 @@ Before onboarding endpoints, the core Wazuh services were verified to ensure the
 **Purpose:**  
 Verified that the Wazuh Manager service was active (`active (running)`), confirming the central event analysis engine was operational.
 
-*Insert Wazuh Manager screenshot*
+![Wazuh Manager Service](01-wazuh-manager-running.png.png)
 
 ---
 
