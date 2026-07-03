@@ -143,7 +143,7 @@ After confirming the SIEM infrastructure was operational, the Windows 11 endpoin
 **Purpose:**  
 Verified that WIN11-ENDPOINT successfully registered with the Wazuh Manager and was communicating as an active monitored endpoint.
 
-*Insert Active Endpoint screenshot*
+![Active Endpoint Enrollment](images/05-active-endpoint-enrollment.png.png)
 
 ---
 
@@ -152,7 +152,7 @@ Verified that WIN11-ENDPOINT successfully registered with the Wazuh Manager and 
 **Purpose:**  
 Verified that Wazuh successfully collected endpoint inventory information including the operating system, IP address, hardware specifications, and agent metadata.
 
-*Insert Endpoint Inventory screenshot*
+![Endpoint Asset Inventory](images/06-endpoint-asset-inventory.png.png)
 
 ---
 
@@ -165,7 +165,7 @@ After endpoint onboarding, Sysmon telemetry was collected, analyzed by Wazuh, an
 **Purpose:**  
 Verified that Sysmon Process Creation (Event ID 1) events were successfully collected, forwarded, and displayed within the Wazuh Dashboard.
 
-*Insert Event ID 1 screenshot*
+![Sysmon Process Creation (Event ID 1)](images/07-sysmon-eventid1.png.png)
 
 ---
 
@@ -174,7 +174,7 @@ Verified that Sysmon Process Creation (Event ID 1) events were successfully coll
 **Purpose:**  
 Verified that a built-in Wazuh detection rule generated a Level 15 security alert after analyzing Sysmon telemetry.
 
-*Insert Level 15 Alert screenshot*
+![Rule 92213 Level 15 Alert](images/08-rule92213-alert.png.png)
 
 ---
 
@@ -183,7 +183,7 @@ Verified that a built-in Wazuh detection rule generated a Level 15 security aler
 **Purpose:**  
 Verified that the generated alert included Rule ID 92213, severity level, and the associated MITRE ATT&CK tactic and technique for additional investigation context.
 
-*Insert Detection Rule screenshot*
+![Detection Rule Details and MITRE ATT&CK Mapping](images/09-detection-rule-mitre.png.png)
 
 ---
 
