@@ -83,7 +83,7 @@ The following validation steps confirmed that the Wazuh deployment was functioni
 - Verified the Wazuh Agent and Microsoft Sysmon services were running on the Windows 11 endpoint.
 - Verified the Windows 11 endpoint successfully registered with the Wazuh Manager.
 - Confirmed endpoint inventory information was collected and displayed in the Wazuh Dashboard.
-- Verified Sysmon Process Creation (Event ID 1) events were successfully ingested.
+- Verified Sysmon events were successfully being ingested.
 - Confirmed a built-in Wazuh detection rule generated a Level 15 security alert from Sysmon telemetry.
 - Verified Sysmon File Creation (Event ID 11) events were successfully ingested.
 - Validated MITRE ATT&CK mappings associated with generated alerts.
@@ -163,7 +163,7 @@ After endpoint onboarding, Sysmon telemetry was collected, analyzed by Wazuh, an
 ### Sysmon Process Creation (Event ID 1)
 
 **Purpose:**  
-Verified that Sysmon Process Creation (Event ID 1) events were successfully collected, forwarded, and displayed within the Wazuh Dashboard.
+Verified that Sysmon events were successfully collected, forwarded, and displayed within the Wazuh Dashboard.
 
 ![Sysmon Process Creation (Event ID 1)](images/07-sysmon-eventid1.png.png)
 
