@@ -195,3 +195,18 @@ Verified that Sysmon File Creation (Event ID 11) events were successfully collec
 ![Sysmon File Creation (Event ID 11) - Part 1](images/10-sysmon-eventid11-details.png.png) 
 
 ![Sysmon File Creation (Event ID 11) - Part 2](images/11-sysmon-eventid11-rule-metadata.png.png)
+
+## Lessons Learned
+
+Building this Wazuh SIEM homelab provided practical experience deploying, configuring, validating, and troubleshooting a Security Information and Event Management (SIEM) solution. Throughout the project, I developed a stronger understanding of how endpoint telemetry is collected, analyzed, and transformed into actionable security alerts.
+
+Key lessons learned include:
+
+- Deploying and validating a multi-component SIEM environment consisting of the Wazuh Manager, Indexer, Dashboard, and Windows 11 endpoint.
+- Configuring Microsoft Sysmon with the SwiftOnSecurity configuration to generate detailed Windows security telemetry.
+- Configuring the Wazuh Agent (`ossec.conf`) to collect and forward Sysmon Operational logs to the Wazuh Manager.
+- Understanding the complete telemetry pipeline from Sysmon event generation, through the Wazuh Agent, to analysis by the Wazuh Manager and visualization in the Wazuh Dashboard.
+- Learning how Wazuh's built-in detection rules analyze Sysmon events and generate security alerts, including Rule ID 92213 for Sysmon File Creation (Event ID 11).
+- Validating endpoint telemetry using Sysmon Process Creation (Event ID 1) and File Creation (Event ID 11) events.
+- Troubleshooting common deployment issues, including service availability, endpoint connectivity, log collection, and event visibility within the Wazuh Dashboard.
+- Reinforcing the importance of validating every stage of a SIEM deployment rather than assuming services are functioning correctly.
