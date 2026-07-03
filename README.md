@@ -84,7 +84,7 @@ The following validation steps confirmed that the Wazuh deployment was functioni
 - Verified the Windows 11 endpoint successfully registered with the Wazuh Manager.
 - Confirmed endpoint inventory information was collected and displayed in the Wazuh Dashboard.
 - Verified Sysmon events were successfully being ingested.
-- Confirmed a built-in Wazuh detection rule generated a Level 15 security alert from Sysmon telemetry.
+-  - Confirmed that Wazuh's built-in Sysmon detection rule successfully generated a Level 15 alert, proving that built-in Wazuh alerts were being displayed in the Dashboard.
 - Verified Sysmon File Creation (Event ID 11) events were successfully ingested.
 - Validated MITRE ATT&CK mappings associated with generated alerts.
 
