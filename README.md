@@ -112,9 +112,9 @@ Verified that the Wazuh Manager service was active and running on the Ubuntu Ser
 **Purpose:**  
 Verified that the Wazuh Indexer service was active (`active (running)`), confirming security events could be indexed and stored for searching and analysis.
 
-*Insert Wazuh Indexer screenshot*
+![Wazuh Indexer Service Running](images/02-wazuh-indexer-running.png.png)
 
----
+
 
 ### Wazuh Dashboard
 
