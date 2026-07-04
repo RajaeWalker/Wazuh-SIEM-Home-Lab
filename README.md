@@ -17,7 +17,7 @@ The goal of the project was to gain hands-on experience deploying a SIEM, collec
 - Develop practical skills in security monitoring, log analysis, and SIEM administration.
 - Document the project for a professional cybersecurity portfolio.
 
-- ## Technologies Used
+ ## Technologies Used
 
 | Technology | Purpose |
 |------------|---------|
@@ -210,3 +210,5 @@ Key lessons learned include:
 - Validating endpoint telemetry using Sysmon Process Creation (Event ID 1) and File Creation (Event ID 11) events.
 - Troubleshooting common deployment issues, including service availability, endpoint connectivity, log collection, and event visibility within the Wazuh Dashboard.
 - Reinforcing the importance of validating every stage of a SIEM deployment rather than assuming services are functioning correctly.
+
+
