@@ -40,6 +40,12 @@ The lab was built in VMware Workstation Pro using two virtual machines connected
 | Wazuh Server | Ubuntu Server | 192.168.74.128 | Hosts the Wazuh Manager, Indexer, and Dashboard |
 | Windows Endpoint | Windows 11 | 192.168.74.129 | Generates Windows and Sysmon events that are collected by the Wazuh Agent |
 
+## Architecture Diagram
+
+The diagram below shows the Wazuh SIEM lab architecture, including the Ubuntu Server hosting the Wazuh components, the Windows 11 endpoint generating telemetry, and the communication flow between the endpoint and server.
+
+![Wazuh SIEM Architecture Diagram](images/wazuh-architecture-diagram.png)
+
 ## Network Communication
 
 The lab used Wazuh's default communication ports to securely register the Windows endpoint, forward security events to the Wazuh server, and provide encrypted access to the web dashboard.
