@@ -4,7 +4,7 @@
 
 This project documents the design, deployment, and validation of a Security Information and Event Management (SIEM) home lab using Wazuh and Microsoft Sysmon. The lab was built in VMware Workstation with an Ubuntu Server hosting the Wazuh Manager, Indexer, and Dashboard, and a Windows 11 endpoint configured with the Wazuh Agent and Sysmon.
 
-The goal of the project was to gain hands-on experience deploying a SIEM, collecting Windows security telemetry, validating built-in Wazuh detections, and monitoring security events through the Wazuh Dashboard. Throughout the project, I configured secure log collection, validated end-to-end event ingestion, and documented the environment to demonstrate practical SOC analyst skills.
+The goal of the project was to gain hands-on experience deploying a SIEM, collecting Windows security telemetry, validating built-in Wazuh detections, and monitoring security events through the Wazuh Dashboard. Throughout the project, I configured the Wazuh Agent to collect Sysmon telemetry, validated end-to-end event ingestion, and documented the environment to demonstrate practical SOC analyst skills.
 
 ## Objectives
 
@@ -12,7 +12,7 @@ The goal of the project was to gain hands-on experience deploying a SIEM, collec
 - Configure a Windows 11 endpoint with the Wazuh Agent.
 - Install and configure Microsoft Sysmon for enhanced event logging.
 - Collect and analyze Windows Security and Sysmon events.
-- Create and validate a custom Wazuh detection rule.
+- Validate built-in Wazuh detection rules.
 - Map detections to the MITRE ATT&CK framework.
 - Develop practical skills in security monitoring, log analysis, and SIEM administration.
 - Document the project for a professional cybersecurity portfolio.
@@ -83,8 +83,8 @@ The following validation steps confirmed that the Wazuh deployment was functioni
 - Verified the Wazuh Agent and Microsoft Sysmon services were running on the Windows 11 endpoint.
 - Verified the Windows 11 endpoint successfully registered with the Wazuh Manager.
 - Confirmed endpoint inventory information was collected and displayed in the Wazuh Dashboard.
-- Verified Sysmon events were successfully being ingested.
--  - Confirmed that Wazuh's built-in Sysmon detection rule successfully generated a Level 15 alert, proving that built-in Wazuh alerts were being displayed in the Dashboard.
+- Verified that Sysmon Process Creation (Event ID 1) events were successfully collected, forwarded, and displayed within the Wazuh Dashboard.
+- Confirmed that Wazuh's built-in Sysmon detection rule successfully generated a Level 15 alert, proving that built-in Wazuh alerts were being displayed in the Dashboard.
 - Verified Sysmon File Creation (Event ID 11) events were successfully ingested.
 - Validated MITRE ATT&CK mappings associated with generated alerts.
 
