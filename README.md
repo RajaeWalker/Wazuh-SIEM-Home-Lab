@@ -44,7 +44,7 @@ The lab was built in VMware Workstation Pro using two virtual machines connected
 
 The diagram below shows the Wazuh SIEM lab architecture, including the Ubuntu Server hosting the Wazuh components, the Windows 11 endpoint generating telemetry, and the communication flow between the endpoint and server.
 
-![Wazuh SIEM Architecture Diagram](images/wazuh-architecture-diagram.png)
+![Wazuh SIEM Architecture Diagram](images/wazuh-architecture-diagram.png.png)
 
 ## Network Communication
 
